@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:andoid="http://schemas.android.com/apk/res-auto">
+        <item android:title="Saved Articles"
+            android:id="@+id/saved"></item>
+        <item android:title="Search"
+                android:id="@+id/search"
+                android:icon="@android:drawable/ic_menu_search"
+                andoid:showAsAction="always"
+                andoid:actionViewClass="android.widget.SearchView"></item>
+</menu>
